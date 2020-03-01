@@ -1,0 +1,280 @@
+# Language: kr
+
+msg-shop-type-admin-regular: "관리자 상점"
+msg-shop-type-selling: "판매 상점"
+msg-shop-type-buying: "구매 상점"
+msg-shop-type-trading: "교환 상점"
+msg-shop-type-book: "책 상점"
+
+msg-shop-type-desc-admin-regular: "무제한 재고 보유"
+msg-shop-type-desc-selling: "플레이어에게 아이템 판매"
+msg-shop-type-desc-buying: "플레이어로부터 아이템 구매"
+msg-shop-type-desc-trading: "아이템 교환"
+msg-shop-type-desc-book: "북 카피 판매"
+
+msg-shop-object-type-living: "{type}"
+msg-shop-object-type-sign: "표지판"
+msg-shop-object-type-npc: "NPC"
+
+msg-selected-shop-type: "&a상점 유형 선택: &6{type} &7({description})"
+msg-selected-shop-object-type: "&a개체 유형 선택: &6{type}"
+
+msg-creation-item-selected: |-
+  &a상점 생성:
+  &e  왼쪽/오른쪽을 클릭하여 상점 유형을 선택하십시오.
+  &e  은신버튼 + 왼쪽/오른쪽을 클릭하여 개체 유형을 선택하십시오.
+  &e  마우스 오른쪽 버튼을 클릭하여 선택하십시오.
+  &e  그런 다음 블록을 마우스 오른쪽 버튼으로 클릭하여 상인을 배치하십시오.
+msg-button-previous-page: "&6<- 이전 ({prev_page}/{max_page})"
+msg-button-previous-page-lore: []
+msg-button-next-page: "&6다음 ({next_page}/{max_page}) ->"
+msg-button-next-page-lore: []
+msg-button-current-page: "&6현재 {page}/{max_page}"
+msg-button-current-page-lore: []
+
+msg-button-name: "&a상점 이름 설정"
+msg-button-name-lore:
+- 상점의 이름을 변경할 수 있습니다.
+msg-button-chest: "&a상점 인벤토리 열기"
+msg-button-chest-lore:
+- 재고품을 관리 할 수 있습니다.
+msg-button-delete: "&4삭제"
+msg-button-delete-lore:
+- 이 상점을 폐기합니다.
+msg-button-hire: "&a상점 구입"
+msg-button-hire-lore:
+- 이 상점을 구매합니다.
+
+msg-button-sign-variant: "&a표지판 변경"
+msg-button-sign-variant-lore:
+- "표지판을 변경할 수 있습니다."
+msg-button-baby: "&a아기/성인"
+msg-button-baby-lore:
+- "상인을 아기나 성인으로 변경 할 수 있습니다."
+msg-button-sitting: "&a앉기/서기"
+msg-button-sitting-lore:
+- "상인의 자세를 변경 할 수 있습니다."
+msg-button-cat-variant: "&a고양이 외형"
+msg-button-cat-variant-lore:
+- "고양이의 외형을 변경 할 수 있습니다."
+msg-button-collar-color: "&a상인 옷 변경"
+msg-button-collar-color-lore:
+- "상인의 옷을 변경할 수 있습니다."
+msg-button-wolf-angry: "&a늑대 상태 변경"
+msg-button-wolf-angry-lore:
+- "늑대를 화난 상태로 변경할 수 있습니다."
+msg-button-carrying-chest: "&a상자 들기/내려놓기"
+msg-button-carrying-chest-lore:
+- "상인이 상자를 내려놓거나 들 수 있습니다."
+msg-button-horse-color: "&a말 색상 변경"
+msg-button-horse-color-lore:
+- "말의 색상을 변경할 수 있습니다."
+msg-button-horse-style: "&a말 스타일 변경"
+msg-button-horse-style-lore:
+- "말의 스타일을 변경할 수 있습니다."
+msg-button-horse-armor: "&a말 갑옷 변경"
+msg-button-horse-armor-lore:
+- "말의 갑옷을 바꿀 수 있습니다."
+msg-button-llama-variant: "&a라마 변경"
+msg-button-llama-variant-lore:
+- "라마의 모습을 바꿀 수 있습니다."
+msg-button-llama-carpet-color: "&a라마 카펫 변경"
+msg-button-llama-carpet-color-lore:
+- "라마의 카펫 색상을 변경할 수 있습니다."
+msg-button-creeper-charged: "&a크리퍼 상태 변경"
+msg-button-creeper-charged-lore:
+- "크리퍼의 상태를 변경할 수 있습니다."
+msg-button-fox-variant: "&a여우 상태 변경"
+msg-button-fox-variant-lore:
+- "여우의 모습을 변경할 수 있습니다."
+msg-button-fox-crouching: "&a여우 자세 변경"
+msg-button-fox-crouching-lore:
+- "여우의 자세를 웅크린 상태로 변경할 수 있습니다."
+msg-button-fox-sleeping: "&a여우 자세 변경"
+msg-button-fox-sleeping-lore:
+- "여우의 자세를 잠든 상태로 변경할 수 있습니다."
+msg-button-mooshroom-variant: "&a버섯소 상태 변경"
+msg-button-mooshroom-variant-lore:
+- "버섯소의 상태를 변경할 수 있습니다."
+msg-button-panda-variant: "&a판다 상태 변경"
+msg-button-panda-variant-lore:
+- "판다의 상태를 변경할 수 있습니다."
+msg-button-parrot-variant: "&a앵무새 상태 변경"
+msg-button-parrot-variant-lore:
+- "앵무새의 상태를 변경할 수 있습니다."
+msg-button-pig-saddle: "&a돼지 안장"
+msg-button-pig-saddle-lore:
+- "돼지의 안장을 토글 할 수 있습니다."
+msg-button-sheep-color: "&a양 색상 변경"
+msg-button-sheep-color-lore:
+- "양의 색상을 변경할 수 있습니다."
+msg-button-sheep-sheared: "&a양 상태 변경"
+msg-button-sheep-sheared-lore:
+- "양 털을 깎은 상태로 토글 할 수 있습니다."
+msg-button-villager-profession: "&a상인 직업 변경"
+msg-button-villager-profession-lore:
+- "상인의 직업을 변경시킬 수 있습니다."
+msg-button-villager-variant: "&a상인 모습 변경"
+msg-button-villager-variant-lore:
+- "상인의 모습을 변경시킵니다."
+msg-button-villager-level: "&a상인 레벨 변경"
+msg-button-villager-level-lore:
+- "상인의 레벨을 변경시킵니다."
+msg-button-zombie-villager-profession: "&a좀비 상인 직업 변경"
+msg-button-zombie-villager-profession-lore:
+- "좀비 상인의 직업을 변경시킵니다."
+
+msg-trading-title-prefix: "&2"
+msg-trading-title-default: "상인"
+
+msg-selected-chest:  "&a상자가 선택되었습니다! 오른쪽 클릭으로 상인을 블록에 배치하십시오."
+msg-must-select-chest: "&7상인을 배치하기 전에 상자를 오른쪽 클릭해야합니다."
+msg-no-chest-selected: "&7선택한 블록이 상자가 아닙니다!"
+msg-chest-too-far: "&7상인의 상자가 너무 멀리 있습니다!"
+msg-chest-not-placed: "&7최근에 배치한 상자를 선택해야합니다!"
+msg-chest-already-in-use: "&7다른 상인이 사용하고 있는 상자입니다!"
+msg-no-chest-access: "&7선택한 상자는 사용할 수 없는 상자입니다!"
+msg-too-many-shops: "&7상점이 너무 많습니다!"
+msg-no-admin-shop-type-selected: "&7관리자 상점이어야 합니다!"
+msg-no-player-shop-type-selected: "&7플레이어 상점이어야 합니다!"
+msg-shop-create-fail: "&7이곳에 상인을 만들 수 없습니다!"
+
+msg-type-new-name: "&a상점 이름을 채팅창에 입력하십시오.\n  &a 대시 (-) 를 입력하면 지울 수 있습니다."
+msg-name-set: "&a상점 이름이 설정되었습니다."
+msg-name-has-not-changed: "&a상점 이름이 변경되지 않았습니다.."
+msg-name-invalid: "&a이름이 잘못되었습니다!"
+
+msg-shop-type-disabled: "&7상점 유형 '&6{type}&7' 이 비활성화 되었습니다.."
+msg-shop-object-type-disabled: "&7상점 개체 유형 '&6{type}&7' (은)는 사용 불가능합니다.."
+
+msg-must-target-shop: "&7상인을 타겟팅 해야합니다."
+msg-must-target-admin-shop: "&7관리자 상점의 상인을 타겟팅 해야합니다."
+msg-must-target-player-shop: "&7플레이어 상점의 상인을 타겟팅해야합니다.."
+msg-target-entity-is-no-shop: "&7상인이 아닙니다!"
+msg-target-shop-is-no-admin-shop: "&7대상 상인은 관리자 상점의 상인이 아닙니다."
+msg-target-shop-is-no-player-shop: "&7대상 상인은 플레이어 상점의 상인이 아닙니다."
+msg-unused-chest: "&7이 상자를 사용하는 상인이 없습니다."
+msg-not-owner: "&7이 상점의 소유자가 아닙니다."
+msg-owner-set: "&a상점의 소유자 : &e{owner}"
+msg-shop-creation-items-given: "&e{player}&a님이 &e{amount}&a 개의 상점 제작 아이템을 받았습니다!"
+msg-unknown-book-author: "알수 없음"
+
+msg-trade-perm-set: "&a상점의 거래 권한이 '&e{perm}&a' (으)로 설정되었습니다."
+msg-trade-perm-removed: "&a상점의 거래 권한 '&e{perm}&a' (이)가 제거되었습니다."
+msg-trade-perm-view: "&a상점의 거래 권환 현황 : '&e{perm}&a'."
+
+msg-zombie-villager-curing-disabled: "&7좀비 상인의 치료는 불가능합니다."
+msg-must-hold-hire-item: "&7필요한 고용 아이템을 손에 들고 있어야합니다."
+msg-set-for-hire: "&a상인을 고용하도록 설정되었습니다."
+msg-hired: "&a이 상인을 고용했습니다!"
+msg-missing-hire-perm: "&7상인을 고용할 권한이 없습니다."
+msg-cant-hire: "&7상인을 고용할 여유가 없습니다.."
+msg-cant-hire-shop-type: "&7이 유형의 상인을 고용할 권한이 없습니다.."
+msg-villager-for-hire: "&a상인을 고용하기 위해서는 &6{costs} &a원과 &6{hire-item}&a (이)가 필요합니다."
+
+msg-missing-trade-perm: "&7이 상인과 거래할 권한이 없습니다."
+msg-missing-custom-trade-perm: "&7이 상인과 거래할 권한이 없습니다.."
+msg-cant-trade-while-owner-online: "&7이 상점의 소유자 ('&e{owner}&7') (이)가 온라인에 있는 동안에는 거래할 수 없습니다."
+
+msg-shopkeeper-created: "&a상점 : &6{type} &7({description})\n{setupDesc}"
+
+msg-shop-setup-desc-selling: |-
+  &e  상자에 팔고 싶은 아이템을 추가한 다음
+  &e  은신 버튼 + 오른쪽 클릭으로 비용을 수정할 수 있습니다.
+msg-shop-setup-desc-buying: |-
+  &e  구매하려는 아이템 중 하나를 상자에 추가한 다음
+  &e  은신 버튼 + 오른쪽 클릭으로 비용을 수정할 수 있습니다.
+msg-shop-setup-desc-trading: |-
+  &e  상자에 팔고 싶은 아이템을 추가한 다음
+  &e  은신 버튼 + 오른쪽 클릭으로 비용을 수정할 수 있습니다.
+msg-shop-setup-desc-book: |-
+  &e  상자에 책과 빈 책을 추가한 다음
+  &e  은신 버튼 + 오른쪽 클릭으로 비용을 수정할 수 있습니다.
+msg-shop-setup-desc-admin-regular: |-
+  &e  은신 버튼 + 오른쪽 클릭으로 거래를 수정할 수 있습니다.
+msg-trade-setup-desc-header: '&6{shopType}'
+msg-trade-setup-desc-admin-regular:
+- 재고가 무제한 입니다.
+- 재고에서 상품을 넣으십시오.
+- 왼쪽/오른쪽 클릭으로 양을 조절하십시오.
+- '제일 윗 줄  : 받는 상품'
+- '밑 줄 : 비용 상품'
+msg-trade-setup-desc-selling:
+- 플레이어에게 아이템을 판매합니다.
+- 상자에 판매할 상품을 넣습니다.
+- 왼쪽/오른쪽 클릭으로 양을 조절하십시오.
+- '제일 윗 줄  : 판매중인 상품'
+- '밑 줄 : 비용 상품'
+msg-trade-setup-desc-buying:
+- 플레이어로부터 아이템을 구매합니다.
+- 당신이 원하는 상품을 넣습니다.
+- 판매할 아이템을 넣습니다.
+- 왼쪽/오른쪽 클릭으로 양을 조절하십시오.
+- '제일 윗 줄  : 비용 상품'
+- '밑 줄 : 구매중인 상품'
+msg-trade-setup-desc-trading:
+- 플레이어와 아이템을 교환합니다.
+- 상자에 교환할 상품을 넣습니다.
+- 
+- 왼쪽/오른쪽 클릭으로 양을 조절하십시오.
+- '제일 윗 줄  : 받는 상품'
+- '밑 줄 : 비용 상품'
+msg-trade-setup-desc-book:
+- 책을 판매합니다.
+- 상자에 책과 빈 책을 넣습니다.
+- 왼쪽/오른쪽 클릭으로 양을 조절하십시오.
+- '제일 윗 줄  : 판매중인 책'
+- '밑 줄 : 비용 상품'
+
+msg-list-admin-shops-header: "&e{shopsCount}&9개의 관리자 상점 존재: &e(현재{page}/{maxPage})"
+msg-list-player-shops-header: "&9'&e{player}&9'님은 &e{shopsCount}&9개의 상점을 가지고 있습니다.&e(현재{page}/{maxPage})"
+msg-list-shops-entry: "  &e{shopId}) &7{shopName}&r&8 의 위치 &7({location})&8, 유형: &7{shopType}&8, 개체 타입: &7{objectType}"
+
+msg-removed-admin-shops: "&e{shopsCount} &a관리자 상점이 제거되었습니다."
+msg-removed-player-shops: "&e{shopsCount} &a'&e{player}&a'님의 상점이 제거되었습니다."
+msg-removed-all-player-shops: "&a&e{shopsCount} &a모든 플레이어 상점이 제거되었습니다.."
+
+msg-confirm-remove-admin-shops: "&c모든 관리자 상점을 제거할 수 없습니다! (&6{shopsCount}&c)"
+msg-confirm-remove-own-shops: "&c모든 상점을 제거할 수 없습니다! (&6{shopsCount}&c)"
+msg-confirm-remove-player-shops: "&c당신은 &6{player}&c 님의 모든 상점을 제거할 수 없습니다! (&6{shopsCount}&c)"
+msg-confirm-remove-all-player-shops: "&c모든 플레이어 상점을 제거할 수 없습니다! (&6{shopsCount}&c)"
+
+msg-confirmation-required: "&7커맨드 &6/shopkeepers confirm 를 입력하여 확인하십시오."
+msg-confirmation-expired: "&c확인이 만료되었습니다."
+msg-nothing-to-confirm: "&c현재 확인할 것이 없습니다."
+
+msg-no-permission: "&c권한이 없습니다."
+
+msg-command-unknown: "&c알 수 없는 커맨드 '&e{command}&c'!"
+msg-command-argument-unexpected: "&c예기치 않은 인수 '&e{argument}&c'."
+msg-command-argument-requires-player: "&c인수 '&e{argumentFormat}&c' (은)는 플레이어가 커맨드를 실행해야합니다."
+msg-command-argument-missing: "&c인수 '&e{argumentFormat}&c'가 없습니다."
+msg-command-argument-invalid: "&c'&e{argument}&c'(은)는 잘못된 인수입니다."
+msg-command-player-argument-missing: "&c'&e{argumentFormat}&c'에 지정된 플레이어가 없습니다."
+msg-command-player-argument-invalid: "&c'&e{argument}&c'에 플레이어를 찾을 수 없습니다."
+msg-command-shop-type-argument-invalid: "&c'&e{argument}&c'(은)는 알 수 없는 상점 타입입니다."
+msg-command-shop-object-type-argument-invalid: "&cU'&e{argument}&c'(은)는 알 수 없는 개체 타입입니다."
+msg-command-shopkeeper-argument-invalid: "&c'&e{argument}&c'에서 상점을 찾을 수 없습니다."
+msg-command-shopkeeper-argument-no-admin-shop: "&c'&e{argument}&c'(은)는 관리자 상점 주인이 아닙니다."
+msg-command-shopkeeper-argument-no-player-shop: "&c'&e{argument}&c'(은)는 상점 주인이 아닙니다."
+
+msg-ambiguous-player-name: "&c'&e{name}&c' 이름이 일치하는 항목이 여러 개 있습니다!"
+msg-ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+msg-ambiguous-player-name-more: "&c  - ...."
+
+msg-command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+msg-command-help-usage-format: "&e{usage}"
+msg-command-help-description-format: "&8 - &3{description}"
+
+msg-command-description-shopkeeper: "상점을 만듭니다."
+msg-command-description-help: "도움말 페이지를 표시합니다."
+msg-command-description-reload: "플러그인 리로드"
+msg-command-description-debug: "디버그 모드 토글"
+msg-command-description-list: "지정된 플레이어의 모든 상점 또는 모든 관리자 상점을 나열합니다."
+msg-command-description-remove: "지정된 플레이어, 모든 플레이어, 모든 관리자 상점을 제거합니다."
+msg-command-description-give: "상점 생성 아이템을 지급합니다."
+msg-command-description-remote: "원격으로 상점을 엽니다."
+msg-command-description-remote-edit: "원격으로 상점을 편집합니다."
+msg-command-description-transfer: "상점의 소유권을 양도합니다."
+msg-command-description-settradeperm: "거래 권한을 설정, 제거 (-) 또는 표시 (?)합니다."
+msg-command-description-setforhire: "판매 할 상점 중 하나를 설정합니다."
